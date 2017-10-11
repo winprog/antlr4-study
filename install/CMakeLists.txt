@@ -1,4 +1,4 @@
-set (PACKAGE_NAME "com.rxl.stduy")
+set (PACKAGE_NAME "com.rxl.study")
 STRING (REPLACE "." "\\" ${PACKAGE_NAME} PACKAGE_PATH)
 set (PACKAGE_PATH "${CMAKE_CURRENT_BINARY_DIR}/src/${PACKAGE_PATH}")
 
@@ -11,5 +11,5 @@ execute_process (
     
 file (GLOB hello_java_srcs ${PACKAGE_PATH}/*.java)
 add_jar (hello_g4_jar ${hello_java_srcs} 
-    INCLUDE_JARS "/usr/local/Cellar/antlr/4.7/antlr-4.7-complete.jar" 
+    INCLUDE_JARS ${ANTLR_JAVA_LIB}
     OUTPUT_DIR "${CMAKE_BINARY_DIR}/libs")
