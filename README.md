@@ -7,3 +7,4 @@ personal practice codes.
 
 # practice list
 + antlr hello.g4 and make a test.
++ .g4 files can be tested by grun.
