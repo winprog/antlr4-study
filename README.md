@@ -2,7 +2,8 @@
 personal practice codes.
 
 # Guide
-+ building by cmake.
++ cmake build practice. 
++ markdown practice.
 + paths only test for my office macos.
 
 # practice list
