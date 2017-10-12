@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: HelloWorld 
+Class-Path: @HELLO_G4_LIB@ @ANTLR_JAVA_LIB@
