@@ -11,3 +11,5 @@ personal practice codes.
 + run HelloWorld.jar:
 >java -jar test/HelloWorld.jar
 + .g4 files can be tested by grun.
+>#cd <project_path>/install
+>#./test_Hello.sh
